@@ -1,0 +1,55 @@
+// .container{
+// //     width: 85%;
+// //     padding-left: 10%;
+// // }
+.parent-container{
+    width: 100%;
+    .container{
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        .time{
+            width: 70%;
+        }
+        .date-slot{
+            margin: auto ;
+            text-align: center;
+        }
+        .time-slot{
+            width: 50%;
+            margin: auto ;
+            text-align: center;
+        }
+        .time-slot:hover{
+            background-color: rgb(85, 222, 85);
+            transition: 500ms;
+        }
+    }
+    .btns{
+        width: 75%;
+        display: flex;
+        justify-content: right;
+        .btn{
+            background-color: rgb(197, 197, 197);
+            margin: 2%;
+            border-radius: 10%;
+            border:none;
+            height: 2.5em;
+        }
+        .btn:hover{
+            transition: 500ms;
+        }
+        .cancel:hover{
+            
+            background-color: rgb(221, 63, 63);
+        }
+        .continue:hover{
+            background-color: rgb(85, 222, 85);
+        }
+    }
+
+
+}
+
