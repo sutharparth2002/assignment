@@ -2,8 +2,8 @@ To run the project first code to the project directory using command cd 'directo
 
 then install node modules using command
 
-## npm install 
+# npm install 
 
 then start the react server using command
 
-## npm start
+# npm start
